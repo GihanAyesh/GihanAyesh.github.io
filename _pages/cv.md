@@ -4,8 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+redirect_to: https://drive.google.com/file/d/1o2BQa71Wk9sMjxKPqqr9Zm2SGWimc8WK/view?usp=sharing
 ---
