@@ -1,8 +1,6 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
 @inproceedings{jayawickrama2021seeking,
   title={Seeking Sinhala Sentiment: Predicting Facebook Reactions of Sinhala Posts},
   author={Jayawickrama, Vihanga and Weeraprameshwara, Gihan and de Silva, Nisansa and Wijeratne, Yudhanjaya},
@@ -11,7 +9,11 @@
   year={2021},
   organization={IEEE},
   doi={10.1109/ICter53630.2021.9774796},
-  url={https://ieeexplore.ieee.org/document/9774796}
+  abstract = {The Facebook network allows its users to record their reactions to text via a typology of emotions. This network, taken at scale, is therefore a prime data set of annotated sentiment data. This paper uses millions of such reactions, derived from a decade worth of Facebook post data centred around a Sri Lankan context, to model an eye of the beholder approach to sentiment detection for online Sinhala textual content. Three different sentiment analysis models are built, taking into account a limited subset of reactions, all reactions, and another that derives a positive/negative star rating value. The efficacy of these models in capturing the reactions of the observers are then computed and discussed. The analysis reveals that binary classification of reactions, for Sinhala content, is significantly more accurate than the other approaches. Furthermore, the inclusion of the like reaction hinders the capability of accurately predicting other reactions.},
+  pdf={https://ieeexplore.ieee.org/document/9774796},
+  selected = {true},
+  bibtex_show = {true},
+  preview = {reactions.png}
 }
 
 @inproceedings{weeraprameshwara2022sinhala,
@@ -20,9 +22,13 @@
   booktitle={Proceedings of the 36th Pacific Asia Conference on Language, Information and Computation},
   pages={325--336},
   year={2022},
-  url = {https://aclanthology.org/2022.paclic-1.36},
+  abstract = {In the process of numerically modeling natural languages, developing language embeddings is a vital step. However, it is challenging to develop functional embeddings for resourcepoor languages such as Sinhala, for which sufficiently large corpora, effective language parsers, and any other required resources are difficult to find. In such conditions, the exploitation of existing models to come up with an efficacious embedding methodology to numerically represent text could be quite fruitful. This paper explores the effectivity of several one-tiered and two-tiered embedding architectures in representing Sinhala text in the sentiment analysis domain. With our findings, the two-tiered embedding architecture where the lower-tier consists of a word embedding and the upper-tier consists of a sentence embedding has been proven to perform better than one-tier word embeddings, by achieving a maximum F1 score of 88.04% in contrast to the 83.76% achieved by word embedding models. Furthermore, embeddings in the hyperbolic space are also developed and compared with Euclidean embeddings in terms of performance. A sentiment data set consisting of Facebook posts and associated reactions have been used for this research. To effectively compare the performance of different embedding systems, the same deep neural network structure has been trained on sentiment data with each of the embedding systems used to encode the text associated.}
+  pdf = {https://aclanthology.org/2022.paclic-1.36},
   address = {Manila, Philippines},
-  publisher = {De La Salle University}
+  publisher = {De La Salle University},
+  selected = {true},
+  bibtex_show = {true},
+  preview = {seq2seq.png}
 }
 
 @inproceedings{weeraprameshwara2022sentiment,
@@ -34,14 +40,17 @@
   isbn = {9781450395489},
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3512826.3512829},
+  pdf = {https://doi.org/10.1145/3512826.3512829},
   doi = {10.1145/3512826.3512829},
   abstract = {The relationship between Facebook posts and the corresponding reaction feature is an interesting subject to explore and understand. To achieve this end, we test state-of-the-art Sinhala sentiment analysis models against a data set containing a decade worth of Sinhala posts with millions of reactions. For the purpose of establishing benchmarks and with the goal of identifying the best model for Sinhala sentiment analysis, we also test, on the same data set configuration, other deep learning models catered for sentiment analysis. In this study we report that the 3 layer Bidirectional LSTM model achieves an F1 score of 84.58\% for Sinhala sentiment analysis, surpassing the current state-of-the-art model; Capsule B, which only manages to get an F1 score of 82.04\%. Further, since all the deep learning models show F1 scores above 75\% we conclude that it is safe to claim that Facebook reactions are suitable to predict the sentiment of a text.},
   booktitle = {2022 The 3rd International Conference on Artificial Intelligence in Electronics Engineering},
   numpages = {7},
   keywords = {NLP, Sinhala, Sentiment Analysis, Deep Learning},
   location = {Bangkok, Thailand},
-  series = {AIEE 2022}
+  series = {AIEE 2022},
+  selected = {true},
+  bibtex_show = {true},
+  preview = {resultcompare.png}
 }
 
 @article{jayawickrama2022facebook,
@@ -51,5 +60,9 @@
   volume={15},
   number={2},
   year={2022},
-  url={https://journal.icter.org/index.php/ICTer/article/view/389}
+  abstract = {Research on natural language processing in most regional languages is hindered due to resource poverty. A possible solution for this is utilization of social media data in research. For example, the Facebook network allows its users to record their reactions to text via a typology of emotions. This network, taken at scale, is therefore a prime dataset of annotated sentiment data. This paper uses millions of such reactions, derived from a decade worth of Facebook post data centred around a Sri Lankan context, to model an eye of the beholder approach to sentiment detection for online Sinhala textual content. Three different sentiment analysis models are built, taking into account a limited subset of reactions, all reactions, and another that derives a positive/negative star rating value. The efficacy of these models in capturing the reactions of the observers is then computed and discussed. The analysis reveals that the Star Rating Model, for Sinhala content, is significantly more accurate (0.82) than the other approaches. The inclusion of the like reaction is discovered to hinder the capability of accurately predicting other reactions. Furthermore, this study provides evidence for the applicability of social media data to eradicate the resource poverty surrounding languages such as Sinhala.}, 
+  pdf={https://journal.icter.org/index.php/ICTer/article/view/389},
+  selected = {true},
+  bibtex_show = {true},
+  preview = {scope.png}
 }
