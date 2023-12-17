@@ -1,19 +1,15 @@
 ---
-# layout: cv
-# permalink: /cv/
-title: Curriculum Vitae
+
+layout: page
+title: CV
+permalink: /cv/
+description: The curriculum vitae updated by 17th December 2022
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
-<div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
-      {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
-  </header>
-
-   <!-- Embed PDF here -->
-   <iframe src="assets/pdf/Gihan_Weeraprameshwara_Curriculum_Vitae.pdf" width="100%" height="600px"></iframe>
-
+<div class="content">
+  <!-- Embed the PDF -->
+  <iframe src="{{ 'assets/pdf/Gihan_Weeraprameshwara_Curriculum_Vitae.pdf' | relative_url }}" width="100%" height="600px"></iframe>
 </div>
