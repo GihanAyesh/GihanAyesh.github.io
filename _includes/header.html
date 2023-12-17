@@ -17,7 +17,7 @@
                 {{- site.last_name -}}
               {%- endif -%}
             {%- else -%}
-              {{- site.title -}}
+              <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">{{ site.title }}</a>
             {%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}

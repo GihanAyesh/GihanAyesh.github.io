@@ -2,7 +2,7 @@
 layout: page
 title: Final Year Project
 description: Presentation on the Final Year Research Project of the Undergraduate Degree in Computer Science and Engineering.
-img: assets/img/poincare.png
+img: assets/img/capsule.png
 importance: 4
 category: work
 ---
