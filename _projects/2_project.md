@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AIEE 2021
+title: AIEE 2022
 description: Presentation done at the 3rd International Conference on Artificial Intelligence in Electronics Engineering (AIEE 2022)
 img: assets/img/publication_preview/resultcompare.png
 importance: 2
