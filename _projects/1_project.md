@@ -20,6 +20,3 @@ The focus of the presentation was to demonstrate the efficacy of these models, i
   <!-- Embed the PDF -->
   <iframe src="{{ '/assets/pdf/ICTer_2021.pdf' | relative_url }}" width="100%" height="600px"></iframe>
 </div>
-
-```
-{% endraw %}
