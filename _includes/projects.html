@@ -1,6 +1,6 @@
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
-<div class="grid-item">
+<div class="grid-item" style="width: 300px; height: auto;">
   {% if project.redirect -%}
   <a href="{{ project.redirect }}">
     {%- else -%}
@@ -10,9 +10,7 @@
         {%- if project.img %}
         {%- include figure.html
           path=project.img
-          alt="project thumbnail"
-          width="300"
-          height="200" -%}
+          alt="project thumbnail" -%}
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title">{{ project.title }}</h2>
